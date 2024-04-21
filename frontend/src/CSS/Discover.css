@@ -1,0 +1,133 @@
+.discover {
+  background-color: #f8fae5;
+}
+.discover_body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2vw;
+}
+
+.discover_section {
+  flex: 0 0 calc(50% - 7vw);
+  min-height: 20.5vw;
+  background-color: #fff;
+  padding: 3vw;
+  box-shadow: 0.25vw 0.25vw 0.1vw rgba(0, 0, 0, 0.25);
+  border-radius: 1vw;
+}
+
+.discover_section h2 {
+  font-size: 3.5vw;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 1vw;
+  color: #e8b4b8;
+  text-shadow: 0.05vw 0.05vw #000000;
+}
+
+.discover_section p {
+  font-size: 2vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  color: #76453b;
+  margin-bottom: 1.5vw;
+}
+
+.feminine_button {
+  padding: 0.55vw 2.75vw;
+  border: none;
+  border-radius: 2.5vw;
+  font-size: 2.5vw;
+  font-family: "Sacramento", cursive;
+  font-weight: 400;
+  background-color: #e8b4b8;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feminine_button:hover {
+  background-color: #a49393;
+  border: 0.1vw solid #67595e;
+}
+
+.discover_section:nth-child(3) {
+  flex-basis: 94.5%;
+  padding: 3vw;
+  background-color: initial;
+  box-shadow: none;
+}
+
+.discover_section:nth-child(3) ul {
+  list-style-type: none;
+}
+
+.discover_section:nth-child(3) li {
+  margin-bottom: 1vw;
+  font-size: 1.75vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  cursor: pointer;
+  color: #76453b;
+}
+
+.discover_section:nth-child(3) li:hover {
+  color: #a49393;
+  text-shadow: 0.075vw 0.075vw #76453b;
+  font-weight: 400;
+}
+
+.explore-content {
+  display: flex;
+  flex-direction: row;
+  height: 10vw;
+}
+
+.content {
+  width: 15vw;
+}
+
+.modal {
+  height: 15vw;
+  width: 70vw;
+  background-color: #fff;
+  padding: 1.5vw;
+  box-shadow: 0.25vw 0.25vw 0.1vw rgba(0, 0, 0, 0.25);
+  border-radius: 1vw;
+}
+
+.modal-content div {
+  text-align: center;
+}
+
+.modal-content div h3 {
+  font-size: 2.5vw;
+  font-family: "Dancing Script", cursive;
+  margin-bottom: 1vw;
+  color: #76453b;
+  text-shadow: 0.1vw 0.01vw #dac0a3;
+}
+
+.modal-content div p {
+  font-size: 1.75vw;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  color: #76453b;
+  margin-bottom: 1vw;
+}
+
+.default-image {
+  height: 15vw;
+  width: 70vw;
+  overflow: hidden;
+}
+
+.default-image img {
+  margin-top: -11.25vw;
+  width: 50vw;
+  object-fit: cover;
+  clip-path: inset(0);
+}

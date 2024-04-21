@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  color: #ffffff;
+  background-color: #f0ebe3;
+  text-shadow: 0.05vw 0.05vw #eed6d3;
+  height: 17vw;
+  border-top: 0.25vw solid #f3d0d7;
+}
+
+.footer-section {
+  padding: 2vw;
+}
+
+.footer-section h3 {
+  margin-bottom: 1vw;
+  font-size: 2vw;
+  font-family: "Dancing Script", cursive;
+  color: #76453B;
+  text-shadow: 0.1vw 0.01vw #dac0a3;
+}
+
+.vertical-line {
+  margin: 1vw 0;
+  height: 15vw;
+  border-left: 0.1vw solid #76453B;
+}
+.footer-section li {
+  font-size: 1.5vw;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  color: #76453B;
+}
