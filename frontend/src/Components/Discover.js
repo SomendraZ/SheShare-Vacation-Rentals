@@ -7,6 +7,7 @@ import explore from "../Resources/explore.jpg";
 
 const Discover = () => {
   const navigate = useNavigate();
+  // eslint-disable-next-line no-unused-vars
   const [showModal, setShowModal] = useState(false);
   const [modalContent, setModalContent] = useState("");
 
@@ -98,10 +99,10 @@ const WelcomeContent = () => {
     <div>
       <h3>Welcome</h3>
       <p>
-        Welcome to our rental platform designed exclusively for women! Whether you're looking for a cozy
-        apartment in the heart of the city or a serene cottage by the beach,
-        we've got you covered. Explore our listings and discover your perfect
-        getaway.
+        Welcome to our rental platform designed exclusively for women! Whether
+        you're looking for a cozy apartment in the heart of the city or a serene
+        cottage by the beach, we've got you covered. Explore our listings and
+        discover your perfect getaway.
       </p>
     </div>
   );
@@ -112,10 +113,11 @@ const SafetyContent = () => {
     <div>
       <h3>Safety</h3>
       <p>
-        Your safety, as a woman traveler, is our top priority. We thoroughly vet all hosts and
-        properties to ensure they meet our rigorous safety standards tailored for women.
-        Additionally, our 24/7 customer support is always available to assist
-        you in case of any emergencies during your stay.
+        Your safety, as a woman traveler, is our top priority. We thoroughly vet
+        all hosts and properties to ensure they meet our rigorous safety
+        standards tailored for women. Additionally, our 24/7 customer support is
+        always available to assist you in case of any emergencies during your
+        stay.
       </p>
     </div>
   );
@@ -128,8 +130,8 @@ const AdventuresContent = () => {
       <p>
         Embark on unforgettable adventures during your stay! Whether it's hiking
         through scenic trails, exploring hidden gems in the city, or indulging
-        in local cuisine, there's something for every adventurous woman. Let us help
-        you make the most out of your trip.
+        in local cuisine, there's something for every adventurous woman. Let us
+        help you make the most out of your trip.
       </p>
     </div>
   );
@@ -148,6 +150,5 @@ const CommunityContent = () => {
     </div>
   );
 };
-
 
 export default Discover;
